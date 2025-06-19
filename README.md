@@ -1,6 +1,6 @@
 # Case Técnico de Data Analysis
 
-Este repositório contém a solução para o Case Técnico de Análise de Dados proposto pelo iFood, com foco na avaliação de uma estratégia de cupons através de um experimento A/B e na proposta de segmentação de usuários para alavancar o crescimento.
+Este repositório contém a solução para o Case Técnico de Análise de Dados, com foco na avaliação de uma estratégia de cupons através de um experimento A/B e na proposta de segmentação de usuários para alavancar o crescimento.
 
 ## Como Executar o Projeto
 
