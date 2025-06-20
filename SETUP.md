@@ -6,8 +6,8 @@
 
 **Motivo**: O arquivo original era muito grande para upload único
 
-- `order_parte_1`: Primeira parte dos pedidos (dez/2018 a meados de jan/2019)
-- `order_parte_2`: Segunda parte dos pedidos (meados de jan/2019 ao final)
+- `order_parte_1`: Primeira parte dos pedidos
+- `order_parte_2`: Segunda parte dos pedidos
 
 **Fonte Original**: [order.json.gz](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz)
 
@@ -21,11 +21,9 @@ df_orders = spark.table("default.order_parte_1").union(
 
 ### 2. `consumers` (Usuários)
 - **Fonte**: [consumer.csv.gz](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz)
-- **Contém**: Dados de 806k usuários
 
 ### 3. `restaurants` (Restaurantes)
 - **Fonte**: [restaurant.csv.gz](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz)
-- **Contém**: Dados de 7k estabelecimentos
 
 ### 4. `ab_test_ref` (Teste A/B)
 - **Fonte**: [ab_test_ref.tar.gz](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz)
@@ -61,4 +59,4 @@ for tabela in tabelas_necessarias:
 **R**: Não, elas já estão criadas via importação manual
 
 **Q**: Por que a tabela de pedidos está dividida?
-**R**: Devido ao tamanho do arquivo original (3.6 milhões de registros)
+**R**: Devido ao tamanho do arquivo original
