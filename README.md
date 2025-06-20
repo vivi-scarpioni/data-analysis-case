@@ -56,6 +56,6 @@ Este repositório contém a solução para o Case Técnico de Análise de Dados,
 
 ## Autor
 
-- Desenvolvido por [Vivian Facioli] como parte de um case técnico de seleção para o iFood.
+- Desenvolvido por Vivian Facioli como parte de um case técnico de seleção para o iFood.
 
-- Email: [viviansfacioli@gmail.com]
+- Email: viviansfacioli@gmail.com
