@@ -44,7 +44,7 @@ Este repositório contém a solução para o Case Técnico de Análise de Dados,
 
 - Testes estatísticos (significância)
 
-- Segmentação de usuários (ex: heavy/light users, freq. pedidos, etc)
+- Segmentação de usuários (Por receita e por volumes de pedidos)
 
 - Análise de resultados por grupo
 
